@@ -65,7 +65,7 @@
     background-color: rgb(255, 255, 255);
     width: 550px;
     margin: auto ;
-    border: 15px solid rgba(9, 46, 18, 0.925);
+    border: 15px solid rgba(17, 19, 17, 0.925);
     transition: all 0.5s ease-in-out 0.1s;
     display: flex;
     justify-content: center;
@@ -112,7 +112,7 @@
      width: 120px;
      font-size: 25px;
      color: rgb(123, 255, 0);
-     border: 9px solid  #286b2b;;
+     border: 8px solid  #0f1810;;
      border-radius: 5px;
      background-color: rgb(58, 56, 56);
      text-align: center;
@@ -143,7 +143,7 @@
      margin:auto;
      margin-bottom: 30px;
      background-color: rgba(14, 32, 18, 0.904);
-     color: rgba(227, 252, 7, 0.863);
+     color: rgba(247, 242, 0, 0.842);
     
      
      
@@ -171,7 +171,7 @@
 }
 
 .exchangeText{
-    color: rgba(229, 255, 0, 0.829);
+    color: rgba(255, 238, 0, 0.829);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,8 +182,8 @@
 .search{
     font-family: verdana;
     font-weight: bolder;
-    font-size:40px;
-    color: rgba(255, 0, 0, 0.883);
+    font-size: 30px;
+    color: rgba(182, 170, 0, 0.883);
  
 }
 

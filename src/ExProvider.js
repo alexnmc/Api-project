@@ -83,7 +83,7 @@ export default class ExProvider extends Component {
 
         :
             
-            alert('CURRENCY NOT FOUND\n\nCURRENCY NAME SHOULD BE 3 LETTERS ONLY\n\n Example: for $ enter usd')
+            alert('CURRENCY NOT FOUND\nCURRENCY CODE SHOULD BE 3 LETTERS ONLY\n\n Example:\n for euro enter eur\n for united states dollar enter usd')
         }
 
     
