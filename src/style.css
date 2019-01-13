@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #2c8f2fcb; 
+    border-top: 20px solid rgba(0, 0, 0, 0.842);
+    border-bottom: 20px solid rgba(0, 0, 0, 0.842);
+    font-size: 35px;
+    font-family:'Times New Roman';
+    font-weight: bolder
+}
+
+.navbar a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+      color: rgb(255, 0, 64);
+}
+    
+
+
+.home,
+.about,
+.exchange {
+    height: 669px;
+    width: 100%;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+   
+}
+
+.home {
+    background: url('http://www.gccexchange.com/images/gcc-exchange-rates.jpg')  no-repeat ;
+    background-size: 100% 100% ;
+    -webkit-filter: brightness(300%);
+    filter: brightness(300%);
+    -webkit-filter: contrast(70%); 
+    filter: contrast(80%);
+    display:block;
+    text-align: center
+    
+}
+
+.about {
+    background-color: whitesmoke;
+    border:  70px solid whitesmoke ;
+}
+
+
+.exchange {
+    
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    margin: auto ;
+    border: 15px solid rgba(9, 46, 18, 0.925);
+    transition: all 0.5s ease-in-out 0.1s;
+    display: flex;
+    justify-content: center;
+}
+
+.exchange:hover{
+    height: 140px;
+    width: 800px;
+
+}
+
+
+.footer {
+    background-color:rgba(18, 18, 74, 0.842);
+    border: 8px solid black;
+    height: 45px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px
+    
+}
+
+ h2{
+     color:rgb(252, 0, 0);
+ }
+
+ h3{
+     color: rgba(250, 0, 0, 0.924);
+     
+ }
+
+ form{
+     display: flex;
+     justify-content: center ;
+     margin-bottom: 100px;
+     background-color: white ;
+     border: 10px solid white ;
+     
+     
+ }
+
+  input{
+     height:60px;
+     width: 120px;
+     font-size: 25px;
+     color: rgb(123, 255, 0);
+     border: 9px solid  #286b2b;;
+     border-radius: 5px;
+     background-color: rgb(58, 56, 56);
+     text-align: center;
+     margin: 20px;
+     
+ }
+
+   
+ button{
+     width:68px;
+     height: 35px;
+     margin-top: 32px;
+     font-size: 13px;
+     color:white;
+     font-weight: bolder;
+     background-color: #bb200ce0;;
+     border-radius: 5px;
+     border: 2px solid black;
+     
+}
+
+.msg{
+     text-align: center;
+     margin-top:30px;
+     font-size: 45px;
+     font-family: 'serif';
+     width: 750px;
+     margin:auto;
+     margin-bottom: 30px;
+     background-color: rgba(14, 32, 18, 0.904);
+     color: rgba(227, 252, 7, 0.863);
+    
+     
+     
+}
+
+.excList{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.textcont{
+     height:50px;
+     width: 550px;
+     background-color: rgb(35, 41, 34);
+     border: 3px solid #2e772f; 
+     transition: all 0.7s ease-in-out 0.1s;
+
+}
+
+.textcont:hover{
+    height: 95px;
+    width: 760px;
+    font-size: 61px;
+}
+
+.exchangeText{
+    color: rgba(229, 255, 0, 0.829);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : auto;
+
+}
+
+.search{
+    font-family: verdana;
+    font-weight: bolder;
+    font-size:40px;
+    color: rgba(255, 0, 0, 0.883);
+ 
+}
+
+.to{
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 35px;
+    color:red
+}
+
+.convert{
+    color:red;
+    font-size: 37px;
+    font-weight: bolder;
+    margin-top:30px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .about {
+        display:block;
+        font-size: 23px;
+        height: 100%;
+    }
+
+    .redh2{
+        margin: 20px;
+    }
+
+    .navbar,
+    .exchange, 
+    .textcont,
+    .exchangeText {
+        width: 100%;
+        font-size: 22px;
+        
+    }
+
+    .msg,
+    form{
+        width: auto;
+        font-size: 25px;
+        margin:auto;
+        margin-top: 30px;
+       
+    }
+
+    input{
+      width: 70px;
+      height: 50px;
+      margin:auto;
+      border:0px;
+    }
+    
+    
+    button{
+        width: 45px;
+        font-size: 7px;
+        
+    }
+   
+    .exchange:hover,
+    .textcont:hover{
+        width:100%;
+        height: 65px;
+    }
+
+    .to,
+    .convert{
+        font-size:20px;
+    }
+
+    .home{
+        background-size: auto  100%;
+        
+    }
+}
