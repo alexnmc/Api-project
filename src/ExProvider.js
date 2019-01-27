@@ -12,7 +12,8 @@ export default class ExProvider extends Component {
             inputValue2: '',
             conversion: null,
             input1: '',
-            input2: ''
+            input2: '',
+            inputValue1: 1
 
         }
     }
@@ -65,7 +66,7 @@ export default class ExProvider extends Component {
             
         })
            
-        let result = num2/num1
+        let result = num2/num1* this.state.inputValue1
      
             name1 && name2  ?
             this.setState( prevState => {
@@ -95,6 +96,7 @@ export default class ExProvider extends Component {
                 handleSubmit: this.handleSubmit,
                 handleChange: this.handleChange,
                 inputValue: this.state.inputValue,
+                inputValue1:this.state.inputValue1,
                 inputValue2: this.state.inputValue2,
                 conversion: this.state.conversion,
                 input1: this.state.input1,
