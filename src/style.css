@@ -257,14 +257,14 @@
     }
 
     input{
-      width: 70px;
-      height: 50px;
+      width: 80px;
+      height: 40px;
       margin:auto;
       border:0px;
-      margin-right:-10px;
-      font-size: 22px;
+      margin-right:-5px;
+      font-size: 17px;
       color: rgb(123, 255, 0);
-      border: 6px solid  #0f1810;;
+      border: 5px solid  #0f1810;;
       border-radius: 5px;
       background-color: rgb(58, 56, 56);
       text-align: center;
@@ -273,11 +273,11 @@
     
    .cur1,
    .cur2{
-    height:50px;
+    height:40px;
     width: 50px;
     font-size: 17px;
     color: rgb(123, 255, 0);
-    border: 6px solid  #0f1810;;
+    border: 5px solid  #0f1810;;
     border-radius: 5px;
     background-color: rgb(58, 56, 56);
     text-align: center;
@@ -287,8 +287,9 @@
     
 
     button{
-        width: 45px;
-        font-size: 7px;
+        width: 42px;
+        height: 30px;
+        font-size: 6px;
         margin:auto;
         
     }
