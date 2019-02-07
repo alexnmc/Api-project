@@ -63,7 +63,7 @@
     
     height: 70px;
     background-color: rgb(255, 255, 255);
-    width: 550px;
+    width: 500px;
     margin: auto ;
     border: 15px solid rgba(17, 19, 17, 0.925);
     transition: all 0.5s ease-in-out 0.1s;
@@ -108,7 +108,7 @@
  }
 
   input{
-     height:60px;
+     height:50px;
      width: 120px;
      font-size: 25px;
      color: rgb(123, 255, 0);
@@ -123,7 +123,7 @@
 
    .cur1,
    .cur2{
-    height:60px;
+    height:50px;
     width: 80px;
     font-size: 25px;
     color: rgb(123, 255, 0);
@@ -172,8 +172,8 @@
 
 
 .textcont{
-     height:50px;
-     width: 550px;
+     height:44px;
+     width: 500px;
      background-color: rgb(35, 41, 34);
      border: 3px solid #2e772f; 
      transition: all 0.7s ease-in-out 0.1s;
@@ -257,14 +257,14 @@
     }
 
     input{
-      width: 80px;
+      width: 90%;
       height: 40px;
       margin:auto;
       border:0px;
       margin-right:-5px;
-      font-size: 17px;
+      font-size: 55%;
       color: rgb(123, 255, 0);
-      border: 5px solid  #0f1810;;
+      border: 3px solid  #0f1810;;
       border-radius: 5px;
       background-color: rgb(58, 56, 56);
       text-align: center;
@@ -274,10 +274,10 @@
    .cur1,
    .cur2{
     height:40px;
-    width: 50px;
-    font-size: 17px;
+    width: 60%;
+    font-size: 50%;
     color: rgb(123, 255, 0);
-    border: 5px solid  #0f1810;;
+    border: 3px solid  #0f1810;;
     border-radius: 5px;
     background-color: rgb(58, 56, 56);
     text-align: center;
@@ -287,10 +287,10 @@
     
 
     button{
-        width: 42px;
+        width: 30%;
         height: 30px;
-        font-size: 6px;
-        margin:auto;
+        font-size: 40%;
+        margin:5px;
         
     }
    
@@ -302,7 +302,7 @@
 
     .to,
     .convert{
-        font-size: 19px;
+        font-size: 90%;
         margin:auto;
     }
 
