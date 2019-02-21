@@ -33,7 +33,7 @@
 .home,
 .about,
 .exchange {
-    height: 669px;
+    height: 46.5vmax;
     width: 100%;
     display: flex;
     font-size: 30px;
