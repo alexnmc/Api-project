@@ -96,7 +96,7 @@ h2{
  h3{
      color: rgba(250, 0, 0, 0.924);
      
- }
+}
 
  form{
      display: flex;
@@ -160,6 +160,7 @@ input{
      color: rgba(247, 242, 0, 0.842);
 }
 
+
 .excList{
     background-color: rgb(255, 255, 255);
     
@@ -175,11 +176,13 @@ input{
 
 }
 
+
 .textcont:hover{
     height: 95px;
     width: 760px;
     font-size: 61px;
 }
+
 
 .exchangeText{
     color: rgba(255, 238, 0, 0.829);
@@ -187,8 +190,8 @@ input{
     justify-content: center;
     align-items: center;
     margin : auto;
-
 }
+
 
 .search{
     font-family: verdana;
@@ -197,6 +200,7 @@ input{
     color: rgba(182, 170, 0, 0.883);
  
 }
+
 
 .to{
     margin-top: 30px;
