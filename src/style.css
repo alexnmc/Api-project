@@ -251,16 +251,15 @@ button{
         width: 100%;
         height: 100%;
         font-size: 23px;
-        
     }
 
+    
     .msg,
     form{
         width: auto;
         font-size: 25px;
         margin:auto;
         margin-top: 30px;
-       
     }
 
     input{
@@ -278,7 +277,8 @@ button{
     
     }
     
-   .cur1,
+   
+    .cur1,
    .cur2{
     height:40px;
     width: 60%;
