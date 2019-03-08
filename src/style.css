@@ -106,7 +106,8 @@ h2{
      border: 10px solid white ;
 }
 
-  input{
+
+input{
      height:50px;
      width: 120px;
      font-size: 25px;
@@ -131,9 +132,7 @@ h2{
     background-color: rgb(58, 56, 56);
     text-align: center;
     margin: 20px;
-   
-    
-   }
+}
 
    
  button{
@@ -159,9 +158,6 @@ h2{
      margin-bottom: 30px;
      background-color: rgba(14, 32, 18, 0.904);
      color: rgba(247, 242, 0, 0.842);
-    
-     
-     
 }
 
 .excList{
