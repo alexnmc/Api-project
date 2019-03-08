@@ -91,11 +91,11 @@
  
 h2{
      color:rgb(252, 0, 0);
- }
+}
 
- h3{
+
+h3{
      color: rgba(250, 0, 0, 0.924);
-     
 }
 
  form{
@@ -216,6 +216,8 @@ input{
     margin-top:30px;
 
 }
+
+
 
 @media only screen and (max-width: 600px) {
     
