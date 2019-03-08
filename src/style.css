@@ -88,7 +88,8 @@
     
 }
 
- h2{
+ 
+h2{
      color:rgb(252, 0, 0);
  }
 
@@ -100,12 +101,10 @@
  form{
      display: flex;
      justify-content: center ;
-     margin-bottom: 100px;
+     margin-bottom: 150px;
      background-color: white ;
      border: 10px solid white ;
-     
-     
- }
+}
 
   input{
      height:50px;
