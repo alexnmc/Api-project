@@ -44,8 +44,10 @@ const ExchangeList = props => {
                 <h3 className = 'search'>  { props.conversion && "exchange rate:"  }</h3>
                  <p>{props.conversion && `${props.inputValue1} ${props.input1.toUpperCase()} = ${props.conversion} ${props.input2.toUpperCase()}`}</p>
             </div> 
-                {props.mapCur}
-          
+                <h4 className = 'exchangeText2'>Live Update:</h4>
+                <div className = 'curWrap'>
+                    {props.mapCur}
+                </div>
         </div>
          
     )

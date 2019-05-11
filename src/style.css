@@ -11,8 +11,8 @@
     justify-content: space-around;
     align-items: center;
     background-color:  #2c8f2fcb; 
-    border-top: 10px solid rgba(0, 0, 0, 0.842);
-    border-bottom: 10px solid rgba(0, 0, 0, 0.842);
+    border-top: 10px solid rgba(0, 0, 0, 0.945);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.945);
     font-size: 33px;
     font-family:'Times New Roman';
     font-weight: bolder
@@ -60,23 +60,27 @@
 
 
 .exchange {
-    
-    height: 70px;
+    height: 60px;
     background-color: rgb(255, 255, 255);
-    width: 500px;
+    width: 400px;
     margin: auto ;
-    border: 15px solid rgba(17, 19, 17, 0.925);
+    border: 10px solid rgba(11, 12, 11, 0.959);
     transition: all 0.5s ease-in-out 0.1s;
     display: flex;
     justify-content: center;
 }
 
 .exchange:hover{
-    height: 140px;
-    width: 800px;
-
+    height: 70px;
+    width: 450px;
 }
 
+.curWrap{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #0f1810;
+    padding:20pt;
+}
 
 .footer {
     background-color:rgba(17, 17, 54, 0.842);
@@ -122,7 +126,7 @@ input{
      width: 120px;
      font-size: 25px;
      color: rgb(123, 255, 0);
-     border: 8px solid  #0f1810;;
+     border: 7px solid  #0f1810;;
      border-radius: 5px;
      background-color: rgb(58, 56, 56);
      text-align: center;
@@ -137,7 +141,7 @@ input{
     width: 80px;
     font-size: 25px;
     color: rgb(123, 255, 0);
-    border: 8px solid  #0f1810;;
+    border: 7px solid  #0f1810;;
     border-radius: 5px;
     background-color: rgb(58, 56, 56);
     text-align: center;
@@ -180,28 +184,36 @@ button{
 
 
 .textcont{
-     height:44px;
-     width: 500px;
-     background-color: rgb(35, 41, 34);
-     border: 3px solid #2e772f; 
+     height:40px;
+     width: 400px;
+     background-color: rgb(20, 22, 19);
+     border: 2px solid #2e772f; 
      transition: all 0.7s ease-in-out 0.1s;
+     display:flex;
+     justify-content: center;
+     align-items: center;
 
 }
 
 
 .textcont:hover{
-    height: 95px;
-    width: 760px;
-    font-size: 61px;
+  
+    width: 420px;
+    font-size: 41px;
 }
 
 
 .exchangeText{
     color: rgba(255, 238, 0, 0.829);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin : auto;
+    font-size:25px;
+    margin: auto;
+}
+
+.exchangeText2{
+    color: rgba(255, 238, 0, 0.829);
+    font-size:24px;
+    background-color: #0f1810;
+    padding:15pt;
 }
 
 
@@ -210,7 +222,6 @@ button{
     font-weight: bolder;
     font-size: 30px;
     color: rgba(182, 170, 0, 0.883);
- 
 }
 
 
@@ -226,7 +237,6 @@ button{
     font-size: 37px;
     font-weight: bolder;
     margin-top:30px;
-
 }
 
 

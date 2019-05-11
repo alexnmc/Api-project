@@ -77,7 +77,6 @@ export default class ExProvider extends Component {
                     inputValue2: '',
                     input1: prevState.inputValue,
                     input2: prevState.inputValue2
-                   
                 }
             })
         
