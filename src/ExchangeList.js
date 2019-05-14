@@ -37,11 +37,11 @@ const ExchangeList = props => {
                      name = 'inputValue2'
                      maxlength="3"
                      required />
-                <button>Convert</button>
+                <button>=</button>
                     
             </form>
             <div className = 'msg'>
-                <h3 className = 'search'>  { props.conversion && "exchange rate:"  }</h3>
+                <h3 className = 'search'>  {props.conversion && "exchange rate:"}</h3>
                  <p>{props.conversion && `${props.inputValue1} ${props.input1.toUpperCase()} = ${props.conversion} ${props.input2.toUpperCase()}`}</p>
             </div> 
                 <h4 className = 'exchangeText2'>Live Update:</h4>

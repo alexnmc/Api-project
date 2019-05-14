@@ -11,15 +11,14 @@
     justify-content: space-around;
     align-items: center;
     background-color:  #2c8f2fcb; 
-    border-top: 10px solid rgba(0, 0, 0, 0.945);
-    border-bottom: 10px solid rgba(0, 0, 0, 0.945);
-    font-size: 33px;
+    border-top: 10px solid rgba(0, 0, 0, 0.904);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.904);
+    font-size: 29px;
     font-family:'Times New Roman';
     font-weight: bolder
 }
 
 .navbar a {
-
     text-decoration: none;
     color: white;
 }
@@ -28,8 +27,6 @@
       color: rgb(255, 0, 64);
 }
     
-
-
 .home,
 .about,
 .exchange {
@@ -58,11 +55,10 @@
     border:  70px solid whitesmoke ;
 }
 
-
 .exchange {
     height: 60px;
     background-color: rgb(255, 255, 255);
-    width: 400px;
+    width: 390px;
     margin: auto ;
     border: 10px solid rgba(11, 12, 11, 0.959);
     transition: all 0.5s ease-in-out 0.1s;
@@ -72,7 +68,7 @@
 
 .exchange:hover{
     height: 70px;
-    width: 450px;
+    width: 430px;
 }
 
 .curWrap{
@@ -91,22 +87,18 @@
     font-size: 20px
 }
 
- 
 h2{
      color:rgb(252, 0, 0);
 }
-
 
 h3{
      color: rgba(250, 0, 0, 0.924);
 }
 
-
 p{
     margin-bottom: 30px;
 }
  
-
 form{
      display: flex;
      justify-content: center ;
@@ -134,7 +126,6 @@ input{
      margin-right:-20px;
 }
 
-   
 .cur1,
 .cur2{
     height:50px;
@@ -148,20 +139,18 @@ input{
     margin: 20px;
 }
 
-   
- 
 button{
-     width:68px;
-     height: 35px;
-     margin-top: 32px;
-     font-size: 13px;
+     width:65px;
+     height: 30px;
+     margin-top: 28px;
+     font-size: 23px;
+     padding-bottom:22pt;
      color:white;
      font-weight: bolder;
      background-color: #bb200ce0;;
-     border-radius: 5px;
-     border: 2px solid black;
+     border-radius: 4px;
+     border: 2px solid rgba(80, 0, 0, 0.692);
 }
-
 
 .msg{
      text-align: center;
@@ -175,17 +164,15 @@ button{
      color: rgba(247, 242, 0, 0.842);
 }
 
-
 .excList{
     background-color: rgb(255, 255, 255);
     height: auto;
     
 }
 
-
 .textcont{
      height:40px;
-     width: 400px;
+     width: 380px;
      background-color: rgb(20, 22, 19);
      border: 2px solid #2e772f; 
      transition: all 0.7s ease-in-out 0.1s;
@@ -195,13 +182,10 @@ button{
 
 }
 
-
 .textcont:hover{
-  
-    width: 420px;
+    width: 400px;
     font-size: 41px;
 }
-
 
 .exchangeText{
     color: rgba(255, 238, 0, 0.829);
@@ -213,9 +197,9 @@ button{
     color: rgba(255, 238, 0, 0.829);
     font-size:24px;
     background-color: #0f1810;
-    padding:15pt;
+    padding:12pt;
+    font-family: tahoma;
 }
-
 
 .search{
     font-family: verdana;
@@ -224,17 +208,16 @@ button{
     color: rgba(182, 170, 0, 0.883);
 }
 
-
 .to{
     margin-top: 30px;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
     color:red
 }
 
 .convert{
     color:red;
-    font-size: 37px;
+    font-size: 30px;
     font-weight: bolder;
     margin-top:30px;
 }
