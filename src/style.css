@@ -243,7 +243,6 @@ button{
         border:12px solid black;
     }
     
-    
     .exchange, 
     .textcont,
     .exchangeText {
@@ -252,7 +251,6 @@ button{
         font-size: 23px;
     }
 
-    
     .msg,
     form{
         width: auto;
@@ -276,7 +274,6 @@ button{
     
     }
     
-   
    .cur1,
    .cur2{
     height:40px;
@@ -290,12 +287,10 @@ button{
     margin: auto;
    
 }
-    
-
     button{
         width: 30%;
         height: 30px;
-        font-size: 40%;
+        font-size: 16pt;
         margin:5px;
         
     }
@@ -315,5 +310,10 @@ button{
     .home{
         background-size: auto  100%;
         
+    }
+
+    .exchangeText{
+       
+        text-align:center;
     }
 }
