@@ -236,7 +236,6 @@ button{
         margin: 20px;
     }
 
-    
     .navbar{
         font-size: 25px;
         height: 80px;
@@ -246,11 +245,17 @@ button{
     .exchange, 
     .textcont,
     .exchangeText {
-        width: 100%;
+        width: 220pt;
         height: 100%;
-        font-size: 23px;
+        font-size: 22px;
+        margin:auto;
+        pointer-events: none;
     }
-
+     
+    .curWrap{
+        padding:10pt;
+    }
+    
     .msg,
     form{
         width: auto;
@@ -292,15 +297,9 @@ button{
         height: 30px;
         font-size: 16pt;
         margin:5px;
-        
     }
    
-    .exchange:hover,
-    .textcont:hover{
-        width:100%;
-        height: 100%;
-    }
-
+    
     .to,
     .convert{
         font-size: 90%;
@@ -309,11 +308,10 @@ button{
 
     .home{
         background-size: auto  100%;
-        
     }
 
     .exchangeText{
-       
-        text-align:center;
+       text-align:center;
+
     }
 }
