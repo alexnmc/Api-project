@@ -246,7 +246,9 @@ button{
     
     .about {
         display:block;
-        font-size: 23px;
+        font-size: 16px;
+       
+       
        
     }
 
@@ -274,21 +276,31 @@ button{
         padding:10pt;
     }
     
-    .msg,
-    form{
+    .msg{
         width: auto;
         font-size: 25px;
         margin:auto;
         margin-top: 30px;
     }
 
+
+    form{
+        width: auto;
+        font-size: 25px;
+        margin:auto;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     input{
-      width: 90%;
+      width: 80%;
       height: 40px;
       margin:auto;
       border:0px;
       margin-right:-5px;
-      font-size: 55%;
+      font-size: 50%;
       color: rgb(123, 255, 0);
       border: 3px solid  #0f1810;;
       border-radius: 5px;
@@ -300,7 +312,7 @@ button{
    .cur1,
    .cur2{
     height:40px;
-    width: 60%;
+    width: 55%;
     font-size: 50%;
     color: rgb(123, 255, 0);
     border: 3px solid  #0f1810;;
@@ -311,7 +323,7 @@ button{
    
 }
     button{
-        width: 30%;
+        width: 25%;
         height: 30px;
         font-size: 16pt;
         margin:5px;
@@ -319,7 +331,7 @@ button{
    
     .to,
     .convert{
-        font-size: 80%;
+        font-size: 75%;
         margin:2vw;
     }
 
@@ -329,6 +341,10 @@ button{
 
     .exchangeText{
        text-align:center;
+    }
 
+    .search{
+        font-size:15pt;
+        margin-bottom:5pt;
     }
 }
