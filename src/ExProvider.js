@@ -13,7 +13,7 @@ export default class ExProvider extends Component {
             conversion: null,
             input1: '',
             input2: '',
-            inputValue1: 1
+            inputValue1: ''
 
         }
     }

@@ -47,7 +47,6 @@
     filter: contrast(80%);
     display:block;
     text-align: center
-    
 }
 
 .about {
@@ -93,7 +92,7 @@ h2{
 }
 
 h3{
-     color: rgba(250, 0, 0, 0.924);
+     color: rgba(201, 0, 0, 0.931);
 }
 
 p{
@@ -115,25 +114,43 @@ form{
 }
 
 input{
-     height:50px;
+     height:47px;
      width: 120px;
-     font-size: 25px;
+     font-size: 20px;
      color: rgb(123, 255, 0);
-     border: 7px solid  #0f1810;;
+     border: 5px solid  #0f1810;
+     border-right: 0px;
      border-radius: 5px;
+     border-top-right-radius:0px;
+     border-bottom-right-radius:0px;
      background-color: rgb(58, 56, 56);
      text-align: center;
      margin: 20px;
      margin-right:-20px;
 }
 
-.cur1,
-.cur2{
-    height:50px;
-    width: 80px;
-    font-size: 25px;
+.cur1{
+    height:47px;
+    width: 75px;
+    font-size: 20px;
     color: rgb(123, 255, 0);
-    border: 7px solid  #0f1810;;
+    border: 5px solid  #0f1810;
+    border-left:0px;
+    border-radius: 5px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    background-color: rgb(58, 56, 56);
+    text-align: center;
+    margin: 20px;
+}
+
+
+.cur2{
+    height:47px;
+    width: 80px;
+    font-size: 20px;
+    color: rgb(123, 255, 0);
+    border: 5px solid  #0f1810;
     border-radius: 5px;
     background-color: rgb(58, 56, 56);
     text-align: center;
