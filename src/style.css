@@ -84,7 +84,8 @@
     height: 45px;
     text-align: center;
     font-weight: bolder;
-    font-size: 20px
+    font-size: 18px;
+    padding: 1.5pt;
 }
 
 h2{
@@ -229,7 +230,7 @@ button{
     .about {
         display:block;
         font-size: 23px;
-        height: 100%;
+       
     }
 
     .redh2{
@@ -299,11 +300,10 @@ button{
         margin:5px;
     }
    
-    
     .to,
     .convert{
-        font-size: 90%;
-        margin:auto;
+        font-size: 80%;
+        margin:2vw;
     }
 
     .home{
