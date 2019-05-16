@@ -101,6 +101,7 @@ p{
  
 form{
      display: flex;
+     align-items: center;
      justify-content: center ;
      margin-bottom: 60px;
      margin-top: 40px;
@@ -160,7 +161,6 @@ input{
 button{
      width:65px;
      height: 30px;
-     margin-top: 28px;
      font-size: 23px;
      padding-bottom:22pt;
      color:white;
@@ -227,7 +227,6 @@ button{
 }
 
 .to{
-    margin-top: 30px;
     font-weight: bolder;
     font-size: 30px;
     color:red
