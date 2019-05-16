@@ -120,7 +120,7 @@ input{
      color: rgb(123, 255, 0);
      border: 5px solid  #0f1810;
      border-right: 0px;
-     border-radius: 5px;
+     border-radius: 2px;
      border-top-right-radius:0px;
      border-bottom-right-radius:0px;
      background-color: rgb(58, 56, 56);
@@ -132,11 +132,11 @@ input{
 .cur1{
     height:47px;
     width: 75px;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(123, 255, 0);
     border: 5px solid  #0f1810;
     border-left:0px;
-    border-radius: 5px;
+    border-radius: 2px;
     border-top-left-radius:0px;
     border-bottom-left-radius:0px;
     background-color: rgb(58, 56, 56);
@@ -148,10 +148,10 @@ input{
 .cur2{
     height:47px;
     width: 80px;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(123, 255, 0);
     border: 5px solid  #0f1810;
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: rgb(58, 56, 56);
     text-align: center;
     margin: 20px;
