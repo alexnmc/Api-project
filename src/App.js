@@ -13,8 +13,8 @@ class App extends Component {
         
     componentDidMount(){
             this.props.getData()
-            
     }
+    
     render(){
         const mapCur = this.props.currency.map( item =>{ 
             console.log("id number = " + item.id)
@@ -25,7 +25,6 @@ class App extends Component {
                     key = {item.id}
                 />
             )
-            
         })
     
         return(
@@ -33,13 +32,20 @@ class App extends Component {
             <div>
                 
                 <Navbar />
-                
                 <Switch>
                     <Route exact path="/" component = {Home}/>
                     <Route path="/about" component = {About}/>
-                    <Route path="/exchange"  render = {props => <ExchangeList {...props} mapCur={mapCur} handleChange = {props.handleChange} handleSubmit = {props.handleSubmit}  conversion = {props.conversion} inputValue = {props.inputValue}  inputValue2= {props.inputValue2} input1 = {props.input1} input2 = {props.input2}/>}/>
+                    <Route path="/exchange"  render = {props => <ExchangeList {...props} mapCur = {mapCur} 
+                                                                                         handleChange = {props.handleChange} 
+                                                                                         handleSubmit = {props.handleSubmit}  
+                                                                                         conversion = {props.conversion} 
+                                                                                         inputValue = {props.inputValue}  
+                                                                                         inputValue2 = {props.inputValue2} 
+                                                                                         input1 = {props.input1} 
+                                                                                         input2 = {props.input2}
+                                                                />
+                                                        }/>
                 </Switch>
-                
                 <Footer />
                 
             </div>

@@ -3,17 +3,12 @@ import{withEx} from './ExProvider'
 
 
     
-   
-
-
 const ExchangeList = props => {
 
     return (
          
         <div className = 'excList'>
-                  
-            <form onSubmit = {props.handleSubmit}>
-                
+             <form onSubmit = {props.handleSubmit}>
                 <p className = 'convert'>Convert</p>
                 <input type = 'number' 
                      placeholder = 'amount' 
@@ -38,20 +33,19 @@ const ExchangeList = props => {
                      maxlength="3"
                      required />
                 <button>=</button>
-                    
             </form>
             <div className = 'msg'>
-                <h3 className = 'search'>  {props.conversion && "exchange rate:"}</h3>
-                 <p>{props.conversion && `${props.inputValue1} ${props.input1.toUpperCase()} = ${props.conversion} ${props.input2.toUpperCase()}`}</p>
+                 <h3 className = 'search'> {props.conversion && "exchange rate:"}</h3>
+                 <p>{props.conversion && `${props.input3} ${props.input1.toUpperCase()} = ${props.conversion} ${props.input2.toUpperCase()}`}</p>
             </div> 
-                <h4 className = 'exchangeText2'>Live Update:</h4>
-                <div className = 'curWrap'>
+                 <h4 className = 'exchangeText2'>Live Update:</h4>
+                 <div className = 'curWrap'>
                     {props.mapCur}
-                </div>
+                 </div>
         </div>
          
     )
-    }
+}
    
 
 export default withEx(ExchangeList)

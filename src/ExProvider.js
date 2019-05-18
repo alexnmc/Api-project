@@ -8,13 +8,14 @@ export default class ExProvider extends Component {
         super()
         this.state = {
             currency: [],
+            inputValue1: '',
             inputValue: '',
             inputValue2: '',
             conversion: null,
             input1: '',
             input2: '',
-            inputValue1: ''
-
+            input3: ''
+            
         }
     }
 
@@ -30,14 +31,13 @@ export default class ExProvider extends Component {
                     }
                         arr.push(obj2)
                 }
-    
-                this.setState({
-                    currency: arr
-                    
-                })
+                    this.setState({
+                        currency: arr
+                    })
             })
     }
                    
+    
     handleChange = event => {
         this.setState({[event.target.name]: event.target.value})
     }
@@ -56,16 +56,14 @@ export default class ExProvider extends Component {
             if(item.key === currValue) {
                  num1 = item.value
                  name1 = item.key
-            
             } 
             if(item.key === currValue2) {
                  num2 = item.value
                  name2 = item.key
             }
-            
         })
            
-        let result = num2/num1* this.state.inputValue1
+        let result = num2/num1 * this.state.inputValue1
      
             name1 && name2  ?
             this.setState( prevState => {
@@ -74,14 +72,15 @@ export default class ExProvider extends Component {
                     conversion: result,
                     inputValue: '',
                     inputValue2: '',
+                    inputValue1: '',
                     input1: prevState.inputValue,
-                    input2: prevState.inputValue2
+                    input2: prevState.inputValue2,
+                    input3: prevState.inputValue1
                 }
             })
         
 
         :
-            
             alert('CURRENCY NOT FOUND\nCURRENCY CODE SHOULD BE 3 LETTERS ONLY\n\n Example:\n for euro enter eur\n for united states dollar enter usd')
     }
 
@@ -98,7 +97,8 @@ export default class ExProvider extends Component {
                 inputValue2: this.state.inputValue2,
                 conversion: this.state.conversion,
                 input1: this.state.input1,
-                input2: this.state.input2
+                input2: this.state.input2,
+                input3: this.state.input3
             }}>
                 { this.props.children }
             </Provider>
