@@ -96,7 +96,7 @@ h3{
 }
 
 p{
-  font-size: 27pt;
+  font-size: 25pt;
   font-weight: bold;
 }
  
@@ -113,7 +113,7 @@ form{
 }
 
 .spaceDiv{
-    height: 71px;
+    height: 67px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -229,7 +229,8 @@ button{
 .search{
     font-family: verdana;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 24px;
+    margin-bottom: 5pt;
     color: rgba(182, 170, 0, 0.883);
 }
 
