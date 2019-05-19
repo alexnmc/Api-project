@@ -96,8 +96,8 @@ h3{
 }
 
 p{
-    
-    font-size: 27pt;
+  font-size: 27pt;
+  font-weight: bold;
 }
  
 form{
@@ -181,14 +181,12 @@ button{
 
 .msg{
      text-align: center;
-     
      font-size: 40px;
      font-family: 'serif';
-     width: 750px;
+     width: auto;
      margin:auto;
      margin-bottom: 30px;
-     background-color: #0f1810f5;
-     color: rgba(247, 242, 0, 0.842);
+     color: #0f1810f5;
 }
 
 .excList{
