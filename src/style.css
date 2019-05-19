@@ -96,17 +96,25 @@ h3{
 }
 
 p{
-    margin-bottom: 30px;
+    
+    font-size: 27pt;
 }
  
 form{
      display: flex;
      align-items: center;
      justify-content: center ;
-     margin-bottom: 60px;
-     margin-top: 40px;
      background-color: white ;
      border: 10px solid white ;
+     width:460pt;
+     margin:auto;
+     margin-top:30pt;
+     margin-bottom:10pt;
+}
+
+.spaceDiv{
+    height: 71px;
+    background-color: rgb(255, 255, 255);
 }
 
 .mapcont{
@@ -126,7 +134,7 @@ input{
      border-bottom-right-radius:0px;
      background-color: rgb(58, 56, 56);
      text-align: center;
-     margin: 20px;
+     margin: auto;
      margin-right:-20px;
 }
 
@@ -142,7 +150,7 @@ input{
     border-bottom-left-radius:0px;
     background-color: rgb(58, 56, 56);
     text-align: center;
-    margin: 20px;
+    margin: auto;
 }
 
 
@@ -155,7 +163,7 @@ input{
     border-radius: 2px;
     background-color: rgb(58, 56, 56);
     text-align: center;
-    margin: 20px;
+    margin:auto;
 }
 
 button{
@@ -168,11 +176,12 @@ button{
      background-color: #bb200ce0;;
      border-radius: 4px;
      border: 2px solid rgba(80, 0, 0, 0.692);
+     margin: auto;
 }
 
 .msg{
      text-align: center;
-     margin-top:30px;
+     
      font-size: 40px;
      font-family: 'serif';
      width: 750px;
@@ -236,7 +245,7 @@ button{
     color:red;
     font-size: 30px;
     font-weight: bolder;
-    margin-top:30px;
+    margin: auto;
 }
 
 
@@ -276,9 +285,12 @@ button{
         width: auto;
         font-size: 25px;
         margin:auto;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
+    .spaceDiv{
+        height: 45pt;
+    }
 
     form{
         width: auto;

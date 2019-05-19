@@ -34,10 +34,12 @@ const ExchangeList = props => {
                      required />
                 <button>=</button>
             </form>
-            <div className = 'msg'>
-                 <h3 className = 'search'> {props.conversion && "exchange rate:"}</h3>
-                 <p>{props.conversion && `${props.input3} ${props.input1.toUpperCase()} = ${props.conversion} ${props.input2.toUpperCase()}`}</p>
-            </div> 
+            
+               <div className = 'msg'>
+                    <h3 className = 'search'> {props.conversion && "exchange rate:"}</h3>
+                    <p>{props.conversion ? `${props.input3} ${props.input1.toUpperCase()} = ${props.conversion} ${props.input2.toUpperCase()}` : <div className = 'spaceDiv'></div>}</p>
+               </div> 
+            
                  <h4 className = 'exchangeText2'>Live Update:</h4>
                  <div className = 'curWrap'>
                     {props.mapCur}
