@@ -42,7 +42,7 @@ export default class ExProvider extends Component {
     
     usdBase = () => {
        let usd = this.state.currency.filter(item => item.key === 'USD' )
-       this.getRate(usd[0].value)
+       this.getRate(usd[0].value) // getting the rate of usd so I can divide all the othe currencies by it
     }
    
    
