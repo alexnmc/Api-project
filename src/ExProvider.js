@@ -14,8 +14,8 @@ export default class ExProvider extends Component {
             conversion: null,
             input1: '',
             input2: '',
-            input3: ''
-            
+            input3: '',
+            switch: false
         }
     }
 
@@ -35,8 +35,38 @@ export default class ExProvider extends Component {
                         currency: arr
                     })
             })
+            
     }
                    
+    
+    
+    usdBase = () => {
+        this.setState({
+            currency: this.state.currency.map(item=> {
+                return(
+                    item = {value: 1,
+                            id:  item.id,
+                            key: item.key
+                        }
+                )
+            })
+        })
+    }
+
+    
+    toggle = () => {
+        this.setState(prevState => {
+           return{
+           switch: !prevState.switch
+           }
+        })
+        !this.state.switch ?
+        this.usdBase()
+        :
+        this.getData()
+    }
+    
+    
     
     handleChange = event => {
         this.setState({[event.target.name]: event.target.value})
@@ -78,8 +108,6 @@ export default class ExProvider extends Component {
                     input3: prevState.inputValue1
                 }
             })
-        
-
         :
             alert('CURRENCY NOT FOUND\nCURRENCY CODE SHOULD BE 3 LETTERS ONLY\n\n Example:\n for euro enter eur\n for united states dollar enter usd')
     }
@@ -88,7 +116,7 @@ export default class ExProvider extends Component {
     render(){
         return (
             <Provider value={{
-                currency: this.state.currency,
+                ...this.state,
                 getData: this.getData,
                 handleSubmit: this.handleSubmit,
                 handleChange: this.handleChange,
@@ -98,7 +126,9 @@ export default class ExProvider extends Component {
                 conversion: this.state.conversion,
                 input1: this.state.input1,
                 input2: this.state.input2,
-                input3: this.state.input3
+                input3: this.state.input3,
+                toggle: this.toggle,
+                usdBase: this.usdBase
             }}>
                 { this.props.children }
             </Provider>

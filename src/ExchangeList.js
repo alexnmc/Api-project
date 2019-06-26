@@ -40,7 +40,8 @@ const ExchangeList = props => {
                     <p>{props.conversion ? `${props.input3} ${props.input1.toUpperCase()} = ${props.conversion} ${props.input2.toUpperCase()}` : <div className = 'spaceDiv'></div>}</p>
                </div> 
             
-                 <h4 className = 'exchangeText2'>Live Update:</h4>
+                 <h4 onClick = {props.toggle} className = 'exchangeText2'>{props.switch ? 'switch to EUR' : 'switch to USD'}</h4>
+                 
                  <div className = 'curWrap'>
                     {props.mapCur}
                  </div>
