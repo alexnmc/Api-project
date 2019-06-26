@@ -41,11 +41,19 @@ export default class ExProvider extends Component {
     
     
     usdBase = () => {
+       let usd = this.state.currency.filter(item => item.key === 'USD' )
+       this.getRate(usd[0].value)
+    }
+   
+   
+   
+    getRate = (usd) => {
         this.setState({
             currency: this.state.currency.map(item=> {
+                let num = item.value/usd
                 return(
-                    item = {value: 1,
-                            id:  item.id,
+                    item = {value: num.toFixed(6), //cuts the number down to 6 decimals
+                            id: item.id,
                             key: item.key
                         }
                 )

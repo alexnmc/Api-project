@@ -8,7 +8,7 @@ import {withEx} from './ExProvider'
 const Exchange = props => {
 
     return (
-        console.log(props),
+       
         <div className = "exchange">
             
             <div className = 'textcont'>

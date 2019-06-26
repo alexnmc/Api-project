@@ -220,10 +220,11 @@ button{
 
 .exchangeText2{
     color: rgba(255, 238, 0, 0.829);
-    font-size:20px;
+    font-size: 17px;
     background-color: #0f1810;
     padding:12pt;
     font-family: tahoma;
+    cursor: pointer;
 }
 
 .search{
