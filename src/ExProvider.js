@@ -69,9 +69,9 @@ export default class ExProvider extends Component {
            }
         })
         !this.state.switch ?
-        this.usdBase()
+        this.usdBase() // get usd
         :
-        this.getData()
+        this.getData() // get eur
     }
     
     
