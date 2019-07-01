@@ -67,7 +67,7 @@
 
 .exchange:hover{
     height: 70px;
-    width: 430px;
+    width: 410px;
 }
 
 .curWrap{
@@ -207,10 +207,6 @@ button{
 
 }
 
-.textcont:hover{
-    width: 400px;
-    font-size: 41px;
-}
 
 .exchangeText{
     color: rgba(255, 238, 0, 0.829);
