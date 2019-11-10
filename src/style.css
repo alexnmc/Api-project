@@ -291,7 +291,7 @@ button{
     form{
         width: auto;
         font-size: 25px;
-        margin:auto;
+        margin:0px;
         margin-top: 30px;
         display: flex;
         align-items: center;
@@ -315,7 +315,7 @@ button{
    .cur1,
    .cur2{
     height:40px;
-    width: 55%;
+    width: 57%;
     font-size: 30%;
     color: rgb(123, 255, 0);
     border: 3px solid  #0f1810;;
@@ -326,8 +326,8 @@ button{
    }
     
    button{
-        width: 25%;
-      height: 20pt;
+        width: 23%;
+        height: 20pt;
         font-size: 15pt;
         margin:5px;
     }
