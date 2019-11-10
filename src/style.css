@@ -258,8 +258,8 @@ button{
     }
 
     .navbar{
-        font-size: 25px;
-        height: 80px;
+        font-size: 20px;
+        height: 70px;
         border:12px solid black;
     }
     
@@ -298,14 +298,13 @@ button{
         justify-content: center;
     }
 
-    
     input{
       width: 80%;
       height: 40px;
       margin:auto;
       border:0px;
       margin-right:-5px;
-      font-size: 50%;
+      font-size: 30%;
       color: rgb(123, 255, 0);
       border: 3px solid  #0f1810;;
       border-radius: 5px;
@@ -317,7 +316,7 @@ button{
    .cur2{
     height:40px;
     width: 55%;
-    font-size: 50%;
+    font-size: 30%;
     color: rgb(123, 255, 0);
     border: 3px solid  #0f1810;;
     border-radius: 5px;
@@ -328,14 +327,14 @@ button{
     
    button{
         width: 25%;
-        height: 30px;
-        font-size: 16pt;
+      height: 20pt;
+        font-size: 15pt;
         margin:5px;
     }
    
     .to,
     .convert{
-        font-size: 75%;
+        font-size: 55%;
         margin:2vw;
     }
 
@@ -348,7 +347,7 @@ button{
     }
 
     .search{
-        font-size:15pt;
+        font-size:17px;
         margin-bottom:5pt;
     }
 
@@ -369,5 +368,11 @@ button{
         margin:0pt;
         padding-top:7pt;
         padding-bottom:0pt;
+    }
+
+    p{
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-family: arial;
     }
 }
